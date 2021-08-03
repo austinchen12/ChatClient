@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreServer", "..\NetCoreServer\source\NetCoreServer\NetCoreServer.csproj", "{D98873CE-7A28-422D-AE13-FD59E8FDBF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSockets_Server", "PracticeSockets_Server\PracticeSockets_Server.csproj", "{C3088DDB-2D32-4486-BFC7-42FD44C0D98B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSockets_Client", "PracticeSockets_Client\PracticeSockets_Client.csproj", "{39AC934F-15AA-486F-8626-52520441F871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSockets_Shared", "PracticeSockets_Shared\PracticeSockets_Shared.csproj", "{626537B9-F1D7-4A55-B0FC-7BE51697F159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSockets_WebApi", "PracticeSockets_WebApi\PracticeSockets_WebApi.csproj", "{7A73A569-5497-439C-A4F9-3E7485146BA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98873CE-7A28-422D-AE13-FD59E8FDBF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98873CE-7A28-422D-AE13-FD59E8FDBF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98873CE-7A28-422D-AE13-FD59E8FDBF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98873CE-7A28-422D-AE13-FD59E8FDBF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3088DDB-2D32-4486-BFC7-42FD44C0D98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3088DDB-2D32-4486-BFC7-42FD44C0D98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3088DDB-2D32-4486-BFC7-42FD44C0D98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3088DDB-2D32-4486-BFC7-42FD44C0D98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AC934F-15AA-486F-8626-52520441F871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AC934F-15AA-486F-8626-52520441F871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AC934F-15AA-486F-8626-52520441F871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AC934F-15AA-486F-8626-52520441F871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626537B9-F1D7-4A55-B0FC-7BE51697F159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626537B9-F1D7-4A55-B0FC-7BE51697F159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626537B9-F1D7-4A55-B0FC-7BE51697F159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626537B9-F1D7-4A55-B0FC-7BE51697F159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A73A569-5497-439C-A4F9-3E7485146BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A73A569-5497-439C-A4F9-3E7485146BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A73A569-5497-439C-A4F9-3E7485146BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A73A569-5497-439C-A4F9-3E7485146BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B256E8-5737-46D3-AEAD-5D3F1FFAAD22}
+	EndGlobalSection
+EndGlobal
