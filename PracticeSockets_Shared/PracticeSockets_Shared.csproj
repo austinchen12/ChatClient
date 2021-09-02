@@ -5,11 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Packets\" />
     <None Remove="Models\" />
-    <None Remove="Repository\" />
+    <None Remove="Packets\Requests\" />
+    <None Remove="Packets\Responses\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Packets\" />
     <Folder Include="Models\" />
-    <Folder Include="Repository\" />
+    <Folder Include="Packets\Requests\" />
+    <Folder Include="Packets\Responses\" />
   </ItemGroup>
 </Project>

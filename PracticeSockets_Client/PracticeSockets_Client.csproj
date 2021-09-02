@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\NetCoreServer\source\NetCoreServer\NetCoreServer.csproj" />
     <ProjectReference Include="..\PracticeSockets_Shared\PracticeSockets_Shared.csproj" />
+    <ProjectReference Include="..\PracticeSockets_Domain\PracticeSockets_Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Newtonsoft.Json" />
